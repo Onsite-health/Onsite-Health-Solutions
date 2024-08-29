@@ -22,6 +22,7 @@ header {
     justify-content: flex-start; /* Align the logo and text to the left */
     padding-left: 20px;
 }
+.DivWithVideo * {max-width: 100%}
 .back-video{
     position: absolute;
     z-index: -1;
