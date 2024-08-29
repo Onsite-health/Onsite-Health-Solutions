@@ -10,9 +10,10 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #f0f8ff, #ffffff); /* Soft white-to-blue gradient */
-    color: #333;
-    padding: 20px 0;
+    /*background: linear-gradient(to right, #f0f8ff, #ffffff); /* Soft white-to-blue gradient */
+    /*color: #333;*/
+    padding: 20px 10px;
+    height: 700px;
 }
 
 .header-content {
@@ -21,9 +22,29 @@ header {
     justify-content: flex-start; /* Align the logo and text to the left */
     padding-left: 20px;
 }
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
 
 .logo {
-    max-width: 150px;
+    max-width: 200px;
     margin-right: 20px;
 }
 
@@ -38,7 +59,7 @@ header {
 }
 
 nav {
-    background: linear-gradient(to right, #f0f8ff, #ffffff); /* Soft white-to-blue gradient to match header */
+    /*background: linear-gradient(to right, #f0f8ff, #ffffff); /* Soft white-to-blue gradient to match header */
     padding: 10px 0;
 }
 
@@ -72,6 +93,7 @@ nav ul li a:hover {
     background-color: #fff;
     margin-bottom: 20px;
 }
+
 
 .container {
     width: 80%;
