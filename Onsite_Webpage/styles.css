@@ -95,7 +95,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color: white;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -185,8 +185,11 @@ footer {
     padding: wrap;
 }
 .PicOnLeft{
-    flex: 70%
-    padding: 20px
+    flex: 70%;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 .CommentOnRight{
     font-size: 50px;
