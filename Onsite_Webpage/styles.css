@@ -23,18 +23,7 @@ header {
     padding-left: 20px;
 }
 .DivWithVideo * {max-width: 100%}
-.back-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    display: block;
-}
-
-/*.back-video{
+.back-video{
     position: absolute;
     z-index: -1;
     top: 0;
@@ -42,20 +31,33 @@ header {
     width: 100%; 
     height: 100%;
     object-fit: cover;
+}/*possible iOS fix here
+/*#video-container {
+ position: relative;
+ padding-top: 56.25%;
 }
-*/
+
+video, object {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  }
+ */
+
 @media (min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;
         height: auto;
-      
+        
     }
 }
 @media (max-aspect-ratio: 16/9){
     .back-video{
         width: auto;
         height: 100%;
-       
+        
     }
 }
 
@@ -93,7 +95,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -178,4 +180,16 @@ footer {
     margin: 20px 0;
     border-radius: 8px;
 }
-
+.wrapper{
+    display: flex;
+    padding: wrap;
+}
+.PicOnLeft{
+    flex: 70%
+    padding: 20px
+}
+.CommentOnRight{
+    font-size: 50px;
+    flex: 30%;
+    padding: 50px;
+}
