@@ -162,7 +162,7 @@ footer {
 }
 
 .content-image {
-    max-width: 30%;
+    max-width: 1000px;
     height: auto;
     margin: 20px 0;
     border-radius: 8px;
