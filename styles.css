@@ -183,25 +183,10 @@ footer {
     flex: auto;
     padding: 80px;
 }
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .wrapper{
-        display: flex;
-        padding: wrap;
-        width: 100%;
-    }
-    .PicOnLeft{
-        flex:auto!important;
-        width: 100%;
-    }
-    
-}
+
 @media only screen and (max-width: 375px) {
     .content-image {
-        width: 100%; /* Full width for small screens */
+        width: 50%; /* Full width for small screens */
         height: auto;
         flex: auto!important;
     }
