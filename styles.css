@@ -184,6 +184,11 @@ footer {
     padding: 80px;
 }
 @media only screen and (max-width: 320px){
+    .wrapper{
+        display: flex;
+        padding: wrap;
+        width: 100%;
+    }
     .PicOnLeft{
         flex:auto!important;
         width: 100%;
