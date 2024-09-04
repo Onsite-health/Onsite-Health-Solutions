@@ -35,6 +35,7 @@ header {
     .back-video{
         width: 100%;
         height: auto;
+        flex: auto!important;
         
     }
 }
@@ -186,6 +187,7 @@ footer {
     .content-image {
         width: 100%; /* Full width for small screens */
         height: auto;
+        flex: auto!important;
     }
 
     .back-video {
