@@ -183,6 +183,13 @@ footer {
     flex: auto;
     padding: 80px;
 }
+@media only screen and (max-width: 320px){
+    .PicOnLeft{
+        flex:auto!important;
+        width: 100%;
+    }
+    
+}
 @media only screen and (max-width: 375px) {
     .content-image {
         width: 100%; /* Full width for small screens */
