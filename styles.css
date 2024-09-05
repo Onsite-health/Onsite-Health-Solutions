@@ -201,6 +201,12 @@ footer {
     padding: 10px;
     
 @media screen and (max-width: 768px) {
+   .back-video{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
     .wrapper {
         grid-template-columns: 1fr; 
         align-items: center;
