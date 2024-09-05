@@ -200,59 +200,22 @@ footer {
     font-size: 50px;
     padding: 10px;
     
-@media only screen and (max-width: 375px) {
-    .content-image {
-        width: 50%; /* Full width for small screens */
-        height: auto;
-        flex: auto!important;
-    }
-
-    .back-video {
-        width: 100%;
-        height: auto;
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr; 
     }
 }
-@media only screen and (min-width: 375px) and (max-width: 414px) {
-    .content-image {
-        width: 100%; 
-        height: auto;
-    }
 
-    .back-video {
-        width: 100%;
-        height: auto;
-    }
+.PicOnLeft {
+    padding: 20px; 
 }
-@media only screen and (min-width: 414px) and (max-width: 768px) {
-    .content-image {
-        width: 100%; 
-        height: auto;
-    }
 
-    .back-video {
-        width: 100%;
-        height: auto;
-    }
+.CommentOnRight {
+    padding: 20px; 
+    font-size: 1.5em; 
 }
-@media only screen and (min-width: 360px) and (max-width: 480px) {
-    .content-image {
-        width: 100%; /* Full width for small Android devices */
-        height: auto;
-    }
-
-    .back-video {
-        width: 100%;
-        height: auto;
-    }
-}
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-    .content-image {
-        width: 100%; /* Larger images for larger Android devices */
-        height: auto;
-    }
-
-    .back-video {
-        width: 100%;
-        height: auto;
-    }
+.PicOnLeft img {
+    max-width: 100%;
+    height: auto; 
+    padding: 10px; 
 }
