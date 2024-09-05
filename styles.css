@@ -166,7 +166,7 @@ footer {
     margin: 20px 0;
     border-radius: 8px;
 }
-.wrapper{
+/*.wrapper{
     display: flex;
     padding: wrap;
 }
@@ -182,8 +182,24 @@ footer {
     font-size: 50px;
     flex: auto;
     padding: 80px;
-}
+}*/
+.wrapper{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
 
+}
+.PicOnLeft{
+    
+    border-radius: 8px;
+    padding: 10px;
+}
+.CommentOnRight{
+    font-size: 50px;
+    padding: 10px;
+    
 @media only screen and (max-width: 375px) {
     .content-image {
         width: 50%; /* Full width for small screens */
