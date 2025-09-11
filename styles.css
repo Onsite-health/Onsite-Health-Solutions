@@ -5,7 +5,7 @@ body {
         font-style: normal;
     margin: 0;
     padding: 0;
-    color: black;
+    color: #333;
     background-color: #fff; /* Background color remains white */
 }
 
@@ -110,7 +110,7 @@ nav ul li a:hover {
 h2 {
     margin-top: 0;
     font-size: 2em;
-    color: #4CAF50;
+    color: black;
 }
 
 ul {
@@ -207,4 +207,5 @@ footer {
     height: auto; 
     padding: 10px; 
 }
+
 
